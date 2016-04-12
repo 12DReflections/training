@@ -14,6 +14,7 @@ def main():
         sys.stdout.write(wh_spc_len/4*'\\t'+line.rstrip().lstrip())
         sys.stdout.write('\\n\\\n')
     print '\t\\"`"'
+    print 2
 
 if __name__=='__main__':
     main()
